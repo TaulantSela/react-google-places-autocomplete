@@ -33,6 +33,8 @@ const GooglePlacesAutocomplete: React.ForwardRefRenderFunction<GooglePlacesAutoc
     }
   }), [sessionToken]);
 
+  console.log('TEST')
+
   return (
     <AsyncSelect
       {...args.selectProps ?? {}}
